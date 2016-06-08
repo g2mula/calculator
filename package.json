@@ -1,7 +1,7 @@
 {
   "name": "calculator",
   "version": "1.0.0",
-  "description": "",
+  "description": "A one line calculating process",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {},
@@ -9,5 +9,16 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "G2",
-  "license": "ISC"
+  "license": "ISC",
+  "bin": {
+    "calculator": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/g2mula/calculator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/g2mula/calculator/issues"
+  },
+  "homepage": "https://github.com/g2mula/calculator#readme"
 }
